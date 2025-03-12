@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    background-image: url("C:/Users/ANTONIO/Desktop/COURSERA/PROJETOS/CRIE UM SITE DE PORTFÓLIO COM HTML, CSS E JAVASCRIPT/Parte 2 Construa seu projeto/Código de Iniciação padrao/images/particula-de-tecnologia-abstrata-realista-de-fundo_23-2148431735.jpeg"); /* Substitua "sua-imagem.jpg" pelo caminho da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-position: center; /* Centraliza a imagem no fundo */
+    background-color: transparent; /* Torna a cor de fundo transparente para exibir a imagem */
+    /* Outros estilos do body */
+}
+header {
+    position: relative; /* Adiciona posicionamento relativo ao header */
+    /* Outros estilos do header */
+}
+
+header nav {
+    position: absolute; /* Adiciona posicionamento absoluto ao menu */
+    bottom: 10px; /* Posiciona o menu a 10px da parte inferior */
+    right: 10px; /* Posiciona o menu a 10px da direita */
+}
+
+header nav ul {
+    list-style: none; /* Remove os marcadores da lista */
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove preenchimento */
+    display: flex; /* Exibe os itens do menu em linha */
+}
+
+header nav li {
+    margin-left: 10px; /* Adiciona espaçamento entre os itens do menu */
+}
+
+header nav a {
+    color: #fff; /* Define a cor do texto dos links */
+    text-decoration: none; /* Remove a decoração de texto dos links */
+}
+header {
+    background-color: #000; /* Garante que o fundo seja preto */
+    color: #fff; /* Garante que o texto seja branco */
+    padding: 10px 0; /* Adiciona um pequeno espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    width: 100%; /* Garante que a faixa cubra toda a largura */
+    box-sizing: border-box; /* Inclui o preenchimento na largura total */
+    margin: 0; /* Remove margens extras */
+    border: none; /* Remove bordas */
+}
+.container div {
+    border: 5px solid #ecd20a; /* Adiciona uma borda de 5 pixels, sólida e cinza escuro */
+    padding: 20px; /* Mantém o espaçamento interno */
+    margin-bottom: 20px; /* Mantém o espaçamento entre os containers */
+    background-color: #fff; /* Mantém a cor de fundo branca */
+    border-radius: 5px; /* Mantém as bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Mantém a sombra */
+    width: 80%; /* Diminui a largura para 80% */
+    margin: 20px auto; /* Adiciona margem superior e inferior e centraliza */
+}
+footer {
+    background-color: #000; /* Garante que o fundo seja preto */
+    color: #fff; /* Garante que o texto seja branco */
+    padding: 10px 0; /* Adiciona um pequeno espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    width: 100%; /* Garante que a faixa cubra toda a largura */
+    box-sizing: border-box; /* Inclui o preenchimento na largura total */
+    margin: 0; /* Remove margens extras */
+    border: none; /* Remove bordas */
+}
+.menu-toggle {
+    display: none;
+    font-size: 10px;
+    cursor: pointer;
+    color: white;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+    .menu-toggle {
+        display: block;
+        text-align: right;
+        padding: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .service {
+        width: 100px
+    }
+}
